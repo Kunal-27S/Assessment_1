@@ -1,0 +1,20 @@
+[
+  {
+    "text": "Course: CS101 Title: Introduction to Programming Credits: 4 Description: This course introduces basic programming concepts. Prerequisites: None ---------------------------------------- Course: CS201 Title: Data Structures Credits: 4 Description: Covers arrays, linked lists, stacks, queues, trees, and graphs. Prerequisites: CS101 ---------------------------------------- Course: CS301 Title: Algorithms Credits: 4 Description: Design and analysis of algorithms. Prerequisites: CS201",
+    "metadata": {
+      "source": "data/raw/courses.txt"
+    }
+  },
+  {
+    "text": "Title: Algorithms Credits: 4 Description: Design and analysis of algorithms. Prerequisites: CS201 ---------------------------------------- Course: CS401 Title: Machine Learning Credits: 4 Description: Introduction to supervised and unsupervised learning. Prerequisites: Linear Algebra, Probability ---------------------------------------- Course: MATH201 Title: Linear Algebra Credits: 3 Description: Matrix operations and vector spaces. Prerequisites: Calculus",
+    "metadata": {
+      "source": "data/raw/courses.txt"
+    }
+  },
+  {
+    "text": "Linear Algebra Credits: 3 Description: Matrix operations and vector spaces. Prerequisites: Calculus ---------------------------------------- Course: STAT301 Title: Probability Credits: 3 Description: Probability theory and distributions. Prerequisites: Calculus",
+    "metadata": {
+      "source": "data/raw/courses.txt"
+    }
+  }
+]

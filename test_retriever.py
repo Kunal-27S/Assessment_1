@@ -1,16 +1,13 @@
-from retrieval.load_vector_store import load_vector_store
+from retrieval.retriever import get_retriever
 
 
-def test():
+def main():
 
-    vector_store = load_vector_store()
+    retriever = get_retriever()
 
     query = "What are prerequisites for Machine Learning?"
 
-    results = vector_store.similarity_search(
-        query,
-        k=5
-    )
+    results = retriever.invoke(query)
 
     print("\nTop Results:\n")
 
@@ -23,4 +20,4 @@ def test():
 
 
 if __name__ == "__main__":
-    test()
+    main()
