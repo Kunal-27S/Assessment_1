@@ -10,14 +10,12 @@
 {"id": 9, "query": "Is Statistics required before Data Science?"},
 {"id": 10, "query": "Do I need Discrete Mathematics before Algorithms?"},
 {"id": 11, "query": "What do I need before taking Machine Learning?"},
-{"id": 12, "query": "What courses are required before Artificial
-Intelligence?"},
+{"id": 12, "query": "What courses are required before ArtificialIntelligence?"},
 {"id": 13, "query": "What prerequisites lead to Database Systems?"},
 {"id": 14, "query": "What sequence of courses is required before Robotics?"},
 {"id": 15, "query": "What is the prerequisite chain for Advanced Programming?"},
 {"id": 16, "query": "How many credits are required to graduate?"},
-{"id": 17, "query": "How many electives are required for Computer Science
-major?"},
+{"id": 17, "query": "How many electives are required for Computer Sciencemajor?"},
 {"id": 18, "query": "What is the minimum GPA requirement?"},
 {"id": 19, "query": "How many core courses are required?"},
 {"id": 20, "query": "Are internships required for graduation?"},
