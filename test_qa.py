@@ -12,13 +12,12 @@ def main():
         if question == "exit":
             break
 
-        answer = qa.invoke(
-            {"query": question}
-        )
+        for chunk in qa.stream({"query": question}):
+            if "result" in chunk:
+                print(chunk["result"], end="", flush=True)
 
-        print("\nAnswer:\n")
+        print()
 
-        print(answer["result"])
 
 
 if __name__ == "__main__":

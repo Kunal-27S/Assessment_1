@@ -13,7 +13,8 @@ def build_qa_system():
     llm = ChatOllama(
         model="llama3.2:3b",
         temperature=0,
-        num_predict=128
+        num_predict=64,
+        keep_alive="10m"
     )
 
     # Build QA chain
