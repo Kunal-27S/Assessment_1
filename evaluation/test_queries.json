@@ -1,0 +1,29 @@
+[
+{"id": 1, "query": "Can I take CS301 if I completed CS201?"},
+{"id": 2, "query": "Can I enroll in Machine Learning after Linear Algebra?"},
+{"id": 3, "query": "What prerequisites are required for Database Systems?"},
+{"id": 4, "query": "Can I take Algorithms without Data Structures?"},
+{"id": 5, "query": "Is Calculus required before Physics?"},
+{"id": 6, "query": "Do I need Programming before Software Engineering?"},
+{"id": 7, "query": "Can I take Operating Systems after Computer Organization?"},
+{"id": 8, "query": "Can I enroll in AI after Machine Learning?"},
+{"id": 9, "query": "Is Statistics required before Data Science?"},
+{"id": 10, "query": "Do I need Discrete Mathematics before Algorithms?"},
+{"id": 11, "query": "What do I need before taking Machine Learning?"},
+{"id": 12, "query": "What courses are required before Artificial
+Intelligence?"},
+{"id": 13, "query": "What prerequisites lead to Database Systems?"},
+{"id": 14, "query": "What sequence of courses is required before Robotics?"},
+{"id": 15, "query": "What is the prerequisite chain for Advanced Programming?"},
+{"id": 16, "query": "How many credits are required to graduate?"},
+{"id": 17, "query": "How many electives are required for Computer Science
+major?"},
+{"id": 18, "query": "What is the minimum GPA requirement?"},
+{"id": 19, "query": "How many core courses are required?"},
+{"id": 20, "query": "Are internships required for graduation?"},
+{"id": 21, "query": "Is Machine Learning offered in Summer?"},
+{"id": 22, "query": "Which professor teaches Database Systems?"},
+{"id": 23, "query": "What time is the AI class scheduled?"},
+{"id": 24, "query": "Can I get instructor approval to skip prerequisites?"},
+{"id": 25, "query": "Is attendance mandatory for Operating Systems?"}
+]

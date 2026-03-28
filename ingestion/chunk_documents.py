@@ -1,23 +1,23 @@
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-
-
-def chunk_documents(documents):
-
-    splitter = RecursiveCharacterTextSplitter(
-        chunk_size=500,
-        chunk_overlap=100
-    )
-
-    chunks = splitter.split_documents(documents)
-
-    print("Total chunks:", len(chunks))
-
-    return chunks
-
-def add_metadata(chunks):
-
-    for i, chunk in enumerate(chunks):
-
-        chunk.metadata["chunk_id"] = i
-
-    return chunks
+from langchain.schema import Document
+CHUNK_SIZE = 500
+CHUNK_OVERLAP = 100
+def chunk_documents(docs):
+splitter = RecursiveCharacterTextSplitter(
+chunk_size=CHUNK_SIZE,
+chunk_overlap=CHUNK_OVERLAP
+)
+chunks = []
+for i, doc in enumerate(docs):
+split_texts = splitter.split_text(doc["text"])
+for j, text in enumerate(split_texts):
+chunk = Document(
+page_content=text,
+metadata={
+"source": doc.get("source", "unknown"),
+"section": doc.get("section", "unknown"),
+"chunk_id": f"{i}_{j}"
+}
+)
+chunks.append(chunk)
+return chunks
