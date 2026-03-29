@@ -9,7 +9,12 @@ def chunk_documents(docs):
         text = doc["text"]
 
         # Split by course
-        courses = text.split("Course:")
+        #courses = text.split("Course:")
+        # Split by divider line
+        courses = text.split(
+            "--------------------------------------------------"
+        )
+
 
         for j, course in enumerate(courses):
 
