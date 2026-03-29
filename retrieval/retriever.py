@@ -1,7 +1,7 @@
 from langchain.vectorstores import FAISS
 from langchain.embeddings import HuggingFaceEmbeddings
 
-VECTOR_STORE_PATH = "data/vectorstore"
+VECTOR_STORE_PATH = "vectorstore"
 
 
 def get_retriever():
