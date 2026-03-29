@@ -1,6 +1,6 @@
 from langchain.chains import RetrievalQA
 from langchain_ollama import ChatOllama
-from retriever import get_retriever
+from retrieval.retriever import get_retriever
 
 
 def format_response(result):
